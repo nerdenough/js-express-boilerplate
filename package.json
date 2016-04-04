@@ -1,0 +1,36 @@
+{
+  "name": "js-express-boilerplate",
+  "version": "0.0.0",
+  "description": "A Node.js/Express boilerplate",
+  "main": "server.js",
+  "author": {
+    "name": "Brendan Goodenough",
+    "email": "brendan@goodenough.nz",
+    "url": "https://www.goodenough.nz"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdenough/js-express-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nerdenough/js-express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nerdenough/js-express-boilerplate#readme",
+  "scripts": {
+    "start": "node server.js",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
